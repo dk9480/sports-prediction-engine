@@ -85,3 +85,140 @@
 cd python-service
 pip install fastapi uvicorn
 uvicorn main:app --reload --port 8000
+```
+
+## Backend (Port 5000)
+```bash
+cd backend
+npm install
+node index.js
+```
+
+## Frontend (Port 3000)
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+## Access Application
+
+Frontend: http://localhost:3000  
+Backend API: http://localhost:5000  
+Python Service: http://localhost:8000
+
+
+## 🔧 Environment Variables
+
+### Backend (.env file)
+
+```env
+DB_USER=postgres
+DB_PASSWORD=your_password
+DB_NAME=sports_odds
+DB_HOST=localhost
+DB_PORT=5432
+JWT_SECRET=your_super_secret_key_here
+PORT=5000
+PYTHON_SERVICE_URL=http://localhost:8000
+```
+
+## 📚 API Documentation
+
+### Authentication
+
+| Method | Endpoint   | Description        |
+|--------|-----------|--------------------|
+| POST   | /register | Register new user  |
+| POST   | /login    | Login user         |
+
+### Matches
+
+| Method | Endpoint        | Description                     |
+|--------|----------------|---------------------------------|
+| GET    | /matches       | Get all matches with odds       |
+| GET    | /favorites     | Get favorite matches            |
+| POST   | /favorites     | Add to favorites                |
+| DELETE | /favorites/:id | Remove from favorites           |
+
+### AI Agent
+
+| Method | Endpoint      | Description              |
+|--------|--------------|--------------------------|
+| POST   | /agent/query | Ask AI agent questions   |
+
+### Python ML Service
+
+| Method | Endpoint               | Description                          |
+|--------|------------------------|--------------------------------------|
+| POST   | /generate-odds        | Generate odds for single match       |
+| POST   | /generate-odds-batch  | Generate odds for multiple matches   |
+| GET    | /health               | Health check                         |
+
+---
+
+## 🤖 AI Agent Examples
+
+| Question                              | What it does                      |
+|---------------------------------------|----------------------------------|
+| "Will Real Madrid win?"               | Predicts match outcome           |
+| "Show me all matches"                 | Lists all matches                |
+| "Who is the favorite?"                | Finds strongest favorite         |
+| "Show me close matches"               | Finds competitive games          |
+| "Which match is most predictable?"    | Safest bet                       |
+| "Show me value bets"                  | Best underdog odds               |
+| "Platform statistics"                 | Overall overview                 |
+
+
+## 📁 Project Structure
+
+```
+sports-odds-intelligence-platform/
+│
+├── images/                      # Screenshots
+│   ├── login.png
+│   ├── matches.png
+│   ├── ai-agent.png
+│   ├── favorites.png
+│   └── dark-mode.png
+│
+├── python-service/
+│   └── main.py
+│
+├── backend/
+│   ├── index.js
+│   ├── logger.js
+│   ├── package.json
+│   └── .env.example
+│
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   └── components/
+│   │       ├── Layout/
+│   │       │   ├── ThemeContext.js
+│   │       │   └── Header.js
+│   │       ├── Auth/
+│   │       │   ├── Login.js
+│   │       │   └── Register.js
+│   │       ├── Matches/
+│   │       │   ├── CountdownTimer.js
+│   │       │   ├── ProbabilityBar.js
+│   │       │   ├── MatchCard.js
+│   │       │   └── MatchList.js
+│   │       ├── Favorites/
+│   │       │   └── FavoritesList.js
+│   │       └── AIAgent/
+│   │           └── AIAgent.js
+│   └── package.json
+│
+├── README.md
+└── .gitignore
+```
+
