@@ -10,7 +10,6 @@ const rateLimit = require('express-rate-limit');
 const logger = require('./logger');
 const crypto = require('crypto');
 
-// NO GEMINI HERE - Clean and simple!
 
 const app = express();
 app.use(express.json({ limit: '10kb' }));
