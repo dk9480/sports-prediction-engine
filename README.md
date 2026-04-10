@@ -177,11 +177,11 @@ PYTHON_SERVICE_URL=http://localhost:8000
 sports-odds-intelligence-platform/
 │
 ├── images/                      # Screenshots
-│   ├── login.png
+│   ├── auth.jpg 
 │   ├── matches.png
 │   ├── ai-agent.png
 │   ├── favorites.png
-│   └── dark-mode.png
+│   └── Light-mode.png     
 │
 ├── python-service/
 │   └── main.py
