@@ -16,7 +16,7 @@
 
 ## 📸 Screenshots
 
-### 🔐 Login Page
+### 🔐 Authentication (Login & Register)
 <div align="center">
   <a href="./images/auth.png">
     <img src="./images/auth.png" alt="Login and Register Pages" width="600"/>
