@@ -17,9 +17,10 @@
 ## 📸 Screenshots
 
 ### 🔐 Authentication (Login & Register)
+### 🔐 Authentication (Login & Register)
 <div align="center">
-  <a href="./images/auth.png">
-    <img src="./images/auth.png" alt="Login and Register Pages" width="600"/>
+  <a href="./images/auth.jpg">
+    <img src="./images/auth.jpg" alt="Login and Register Pages" width="600"/>
   </a>
   <br/>
   <sub>Click image to view full size - Shows both Login and Register forms</sub>
@@ -40,13 +41,12 @@
 
 ### 🤖 AI Agent
 <div align="center">
-  <a href="./images/ai-agent.png">
-    <img src="./images/ai-agent.png" alt="AI Agent" width="600"/>
+  <a href="./images/ai-agent.jpg">
+    <img src="./images/ai-agent.jpg" alt="AI Agent" width="600"/>
   </a>
   <br/>
   <sub>Click image to view full size</sub>
 </div>
-
 ---
 
 ### ⭐ Favorites Page
