@@ -14,69 +14,60 @@
 
 ---
 
-## 📋 Table of Contents
-
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Screenshots](#screenshots)
-- [Quick Start](#quick-start)
-- [Environment Variables](#environment-variables)
-- [API Documentation](#api-documentation)
-- [AI Agent Examples](#ai-agent-examples)
-- [Project Structure](#project-structure)
-
----
-
-## ✨ Features
-
-### Core Features
-| Feature | Description |
-|---------|-------------|
-| 🔐 **JWT Authentication** | Secure login/register system |
-| 🏏 **Multi-Sport Support** | Football, Cricket, Basketball |
-| 🤖 **AI Agent** | Natural language queries about matches |
-| ⭐ **Favorites** | Save and track favorite matches |
-| 📊 **Probability Bars** | Visual win probability indicators |
-| ⏰ **Countdown Timer** | Live match countdowns |
-| 🌙 **Dark Mode** | Toggle between light/dark themes |
-| 📥 **CSV Export** | Export match data to CSV |
-
-### Bonus Features
-- 🚀 **Batch API Calls** - Efficient Python service integration
-- 💾 **Smart Caching** - MD5-based odds caching
-- 🎯 **Sport-Specific Models** - Custom algorithms per sport
-- 📱 **Responsive Design** - Works on all devices
-
----
-
-## 🛠️ Tech Stack
-
-| Layer | Technology |
-|-------|------------|
-| Frontend | React.js, Axios |
-| Backend | Node.js, Express.js, PostgreSQL, JWT |
-| ML Service | Python, FastAPI |
-| Caching | NodeCache |
-| Logging | Winston |
-
----
-
 ## 📸 Screenshots
 
-### Login Page
-![Login](./screenshots/login.png)
+### 🔐 Login Page
+<div align="center">
+  <a href="./images/login.png">
+    <img src="./images/login.png" alt="Login Page" width="600"/>
+  </a>
+  <br/>
+  <sub>Click image to view full size</sub>
+</div>
 
-### Matches Dashboard
-![Matches](./screenshots/matches.png)
+---
 
-### AI Agent
-![AI Agent](./screenshots/ai-agent.png)
+### 📋 Matches Dashboard
+<div align="center">
+  <a href="./images/matches.png">
+    <img src="./images/matches.png" alt="Matches Dashboard" width="600"/>
+  </a>
+  <br/>
+  <sub>Click image to view full size</sub>
+</div>
 
-### Favorites
-![Favorites](./screenshots/favorites.png)
+---
 
-### Dark Mode
-![Dark Mode](./screenshots/dark-mode.png)
+### 🤖 AI Agent
+<div align="center">
+  <a href="./images/ai-agent.png">
+    <img src="./images/ai-agent.png" alt="AI Agent" width="600"/>
+  </a>
+  <br/>
+  <sub>Click image to view full size</sub>
+</div>
+
+---
+
+### ⭐ Favorites Page
+<div align="center">
+  <a href="./images/favorites.png">
+    <img src="./images/favorites.png" alt="Favorites Page" width="600"/>
+  </a>
+  <br/>
+  <sub>Click image to view full size</sub>
+</div>
+
+---
+
+### 🌙 Dark Mode
+<div align="center">
+  <a href="./images/dark-mode.png">
+    <img src="./images/dark-mode.png" alt="Dark Mode" width="600"/>
+  </a>
+  <br/>
+  <sub>Click image to view full size</sub>
+</div>
 
 ---
 
