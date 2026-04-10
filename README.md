@@ -221,4 +221,8 @@ sports-odds-intelligence-platform/
 ├── README.md
 └── .gitignore
 ```
+<div align="center">
+Built for Full-Stack + AI Intern Assessment
 
+⭐ Star this repo if you like it!
+</div>
