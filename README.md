@@ -168,7 +168,6 @@ PYTHON_SERVICE_URL=http://localhost:8000
 | "Who is the favorite?"                | Finds strongest favorite         |
 | "Show me close matches"               | Finds competitive games          |
 | "Which match is most predictable?"    | Safest bet                       |
-| "Show me value bets"                  | Best underdog odds               |
 | "Platform statistics"                 | Overall overview                 |
 
 
