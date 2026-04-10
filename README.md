@@ -60,10 +60,10 @@
 
 ---
 
-### 🌙 Dark Mode
+### ☀️ Light Mode (Default)
 <div align="center">
-  <a href="./images/dark-mode.png">
-    <img src="./images/dark-mode.png" alt="Dark Mode" width="600"/>
+  <a href="./images/Light-mode.png">
+    <img src="./images/light-mode.png" alt="light Mode" width="600"/>
   </a>
   <br/>
   <sub>Click image to view full size</sub>
