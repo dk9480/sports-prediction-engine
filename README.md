@@ -18,11 +18,11 @@
 
 ### 🔐 Login Page
 <div align="center">
-  <a href="./images/login.png">
-    <img src="./images/login.png" alt="Login Page" width="600"/>
+  <a href="./images/auth.png">
+    <img src="./images/auth.png" alt="Login and Register Pages" width="600"/>
   </a>
   <br/>
-  <sub>Click image to view full size</sub>
+  <sub>Click image to view full size - Shows both Login and Register forms</sub>
 </div>
 
 ---
